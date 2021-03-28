@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/golamrabbani93/Portfolio-Paul/issues"
   },
-  "homepage": "https://github.com/golamrabbani93/Portfolio-Paul#readme"
+  "homepage": "https://github.com/golamrabbani93/Portfolio-Paul#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
