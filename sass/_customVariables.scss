@@ -1,3 +1,21 @@
+/*color variables*/
+$color-primary: #ff2b4a;
+$color-bg: linear-gradient(
+  191deg,
+  rgba(43, 11, 45, 1) 0%,
+  rgba(48, 105, 125, 1) 50%,
+  rgba(43, 11, 45, 1) 100%
+);
+$color-div-bg: linear-gradient(
+  to right top,
+  #6b637c,
+  #64637d,
+  #5d637e,
+  #54637e,
+  #4c637d
+);
+$color-text: #ffffff;
+
 /*Font variables*/
 $roboto: "Roboto", sans-serif;
 $raleway: "Raleway", sans-serif;
