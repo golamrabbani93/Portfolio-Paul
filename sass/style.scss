@@ -1,7 +1,14 @@
+/*Import reset*/
+@import "./reset";
+
 /*Import customVariables*/
 @import "./customVariables";
 
 /*Import bootstrap*/
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/*Import mediaQueries*/
+@import "./mediaQueries";
+
 /*Import global.scss*/
 @import "./global";
