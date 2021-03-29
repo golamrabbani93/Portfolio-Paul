@@ -48,3 +48,19 @@
 .font-12 {
   font-size: 1.2rem;
 }
+/*global color classes*/
+.color-primary {
+  color: $color-primary;
+}
+.color-primary-bg {
+  background-color: $color-primary;
+}
+.color-bg {
+  background-color: $color-bg;
+}
+.color-div-bg {
+  background-color: $color-div-bg;
+}
+.color-text {
+  color: $color-text;
+}
