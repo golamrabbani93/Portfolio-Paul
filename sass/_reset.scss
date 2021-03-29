@@ -3,4 +3,10 @@ hmtl {
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  @media (max-width: 768px) {
+    font-size: 45%;
+  }
+  @media (max-width: 998px) {
+    font-size: 55%;
+  }
 }
