@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/golamrabbani93/Portfolio-Paul#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^4.6.0"
   }
 }
