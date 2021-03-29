@@ -1,2 +1,18 @@
 /*Import font*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap");
+
+/*Global classes*/
+
+.font-roboto {
+  font-family: $roboto;
+  font-weight: normal;
+}
+
+.font-roboto-m {
+  font-family: $roboto;
+  font-weight: 500;
+}
+.font-rale {
+  font-family: $raleway;
+  font-weight: 700;
+}
