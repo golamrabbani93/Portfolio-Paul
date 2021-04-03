@@ -116,7 +116,8 @@
         "../node_modules/@fortawesome/fontawesome-free/scss/_variables.scss",
         "../node_modules/@fortawesome/fontawesome-free/scss/_shims.scss",
         "../sass/_mediaQueries.scss",
-        "../sass/_global.scss"
+        "../sass/_global.scss",
+        "../sass/_header.scss"
     ],
     "names": [],
     "file": "style.css"
