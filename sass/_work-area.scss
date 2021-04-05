@@ -1,0 +1,24 @@
+.work-area {
+  .work-process-area {
+    background-color: #f6f6f6;
+    padding-top: 10rem;
+    .work-p-title {
+      padding-bottom: 6rem;
+    }
+    .work-dev {
+      padding-bottom: 10rem;
+      .col-lg-3 {
+        padding: 10rem 5rem;
+      }
+    }
+  }
+
+  .work-experience-area {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    .experience {
+      background: $color-div-bg;
+      padding: 5rem;
+    }
+  }
+}
