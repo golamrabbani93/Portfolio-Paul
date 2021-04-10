@@ -119,7 +119,8 @@
         "../sass/_global.scss",
         "../sass/_header.scss",
         "../sass/_about-area.scss",
-        "../sass/_work-area.scss"
+        "../sass/_work-area.scss",
+        "../sass/_latestWork.scss"
     ],
     "names": [],
     "file": "style.css"
