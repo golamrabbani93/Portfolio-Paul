@@ -74,3 +74,12 @@
 .color-4 {
   background: #002453;
 }
+/*Sticky-navbar*/
+.sticky {
+  position: fixed;
+  width: 100%;
+  background: $color-bg;
+  z-index: 999;
+  transition: background 1s ease;
+  padding: 0.7rem;
+}
