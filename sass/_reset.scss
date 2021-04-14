@@ -18,6 +18,10 @@ body {
   }
 }
 
-a {
-  transition: 0.5s;
+a,
+button,
+.btn {
+  transition: 0.5s !important;
+  outline: none !important;
+  box-shadow: none !important;
 }

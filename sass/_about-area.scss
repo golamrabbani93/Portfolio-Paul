@@ -3,7 +3,19 @@
   .container {
     .about-img {
       img {
-        height: 80%;
+        height: auto;
+        @include mobile {
+          /*320px-480px*/
+          margin-bottom: 6rem;
+        }
+        @include mobile-port {
+          /*481px-767px*/
+          margin-bottom: 6rem;
+        }
+        @include tablet {
+          /*768px-1024px*/
+          margin-bottom: 6rem;
+        }
       }
     }
     .about-title {
@@ -15,6 +27,18 @@
       }
       button {
         padding: 0.5rem 4rem;
+        @include mobile {
+          /*320px-480px*/
+          margin-bottom: 6rem;
+        }
+        @include mobile-port {
+          /*481px-767px*/
+          margin-bottom: 6rem;
+        }
+        @include tablet {
+          /*768px-1024px*/
+          margin-bottom: 6rem;
+        }
       }
     }
   }

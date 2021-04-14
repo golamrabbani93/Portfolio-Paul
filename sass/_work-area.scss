@@ -9,6 +9,23 @@
       padding-bottom: 10rem;
       .col-lg-3 {
         padding: 10rem 5rem;
+        @include mobile {
+          /*320px-480px*/
+          margin-bottom: 1rem;
+        }
+        @include mobile-port {
+          /*481px-767px*/
+          margin-bottom: 1rem;
+        }
+        @include tablet {
+          /*768px-1024px*/
+          padding: 7rem 1rem;
+          margin-bottom: 1.5rem;
+        }
+        @include tablet-port {
+          /*1025px-1280px*/
+          padding: 7rem 0rem;
+        }
       }
     }
   }
@@ -19,6 +36,18 @@
     .experience {
       background: $color-div-bg;
       padding: 5rem;
+      @include mobile {
+        /*320px-480px*/
+        margin-bottom: 4rem;
+      }
+      @include mobile-port {
+        /*481px-767px*/
+        margin-bottom: 4rem;
+      }
+      @include tablet {
+        /*768px-1024px*/
+        margin-bottom: 4rem;
+      }
     }
   }
 }
